@@ -1,0 +1,114 @@
+#auction {
+    background-color: #030303;
+    min-height: 70vh;
+    padding-top: 50px;
+}
+.auction-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.auction-item-box {
+    background-color: #343444;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 3rem;
+    line-height: 4rem;
+}
+
+.auction-img {
+    border-radius: 30px;
+}
+.creator-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    line-height: 2rem;
+    margin-bottom: 15px;
+
+}
+.creator-img {
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+.creator-text, .current-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.creator-text {
+    margin-left: -15px;
+    margin-top: 6px;
+}
+.current-bid {
+    line-height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-top: solid 3px #242431;
+    
+}
+.creator-btn {
+    background-color: #5142FB;
+    padding: 6px;
+    margin-left: 85px;
+    margin-top: 5px;
+}
+.bid-btn {
+    border: none;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+.bid-btn i:hover {
+    color: red;
+}
+.current-text {
+    margin-top: 20px;
+}
+.creator, .current-title {
+    color: #ADADB0;
+    font-size: 12px;
+}
+.creator-name {
+    color: #fff;
+    font-weight: 600;
+}
+.current-num {
+    color: #fff;
+    font-weight: 600;
+}
+.auction-item-box p {
+   font-weight: 600;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.auction-active {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+    -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+}
+.auction-active:hover {
+    transform: translateY(-3rem);
+    background-color: #34495e;
+}
+
+/* .hover-btn-1 {
+    color: #000;
+    border: none;
+    background-color: #fff;
+}
+.hover-btn-1 i {
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+} */

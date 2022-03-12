@@ -1,0 +1,70 @@
+options {
+    min-height: 30vh;
+}
+.options-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.options-item h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+.options-item p {
+    font-size: 1.8rem;
+    opacity: 0.9;
+    color: #fff;
+}
+.options-item-box {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.options-item-box i {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.options-item-box h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+.options-item-box p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+i.box-wallet {
+    background-color: #5142FB;
+    border-radius: 25px;
+}
+i.box-collection {
+    background-color: #46A433;
+    border-radius: 25px;
+}
+i.box-nft {
+    background-color: #9835FB;
+    border-radius: 25px;
+}
+i.box-sale {
+    background-color: #DF4949;
+    border-radius: 25px;
+}
+.options-active:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 73px -26px rgba(149,80,229,0.84);
+    -webkit-box-shadow: 0px 0px 73px -26px rgba(149,80,229,0.84);
+    -moz-box-shadow: 0px 0px 73px -26px rgba(149,80,229,0.84);
+}

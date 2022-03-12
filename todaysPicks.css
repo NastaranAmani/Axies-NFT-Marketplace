@@ -1,0 +1,57 @@
+#todays-Picks {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.picks-bid-btn {
+    border: none;
+    margin-left: 35px;
+    margin-top: 20px;
+    
+}
+.fa-arrows-rotate {
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+.picks1, .picks2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+}
+.picks1 {
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.picks-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.picks-buttons-1 {
+    margin-left: 30px;
+}
+.picks-buttons-2 {
+    margin-right: 30px;
+}
+.pick-btn {
+    border-color: #ADADB0;
+}
+.pick-btn:hover {
+    border-color: #34495e;
+    background-color: #34495e;
+}
+.pick-btn i{
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+.load-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+

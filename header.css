@@ -1,0 +1,83 @@
+#header {
+    min-height: 20vh;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.nav-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+.nav-list {
+    margin: 20px;
+}
+.nav-link {
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+    font-weight: 700;
+}
+.sun-moon {
+    margin: 5px;
+    background-color: #343444;
+    border-radius: 10px;
+    padding: 8px;
+    padding-top: 17px;
+}
+.sun-moon:hover {
+    background-color: #272b2c;
+}
+.navbar-nav ul li {
+    position: relative;
+}
+.fa-angle-down  {
+    margin-left: 2px;
+}
+.fa-wallet {
+    margin-right: 10px;
+    margin-top: 1px;
+    float: left;
+}
+.search {
+    margin-right: -70px;
+}
+.search i {
+    color: #fff;
+
+}
+.dropdown-home {
+    display: none;
+}
+.navbar-nav ul:hover {
+    transition: all 0.3s ease-in-out;
+}
+.navbar-nav ul li:hover .dropdown-home {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+}
+.navbar-nav ul li:hover .dropdown-home ul {
+    display: block;
+    margin: 10px;
+}
+.navbar-nav ul li:hover .dropdown-home ul li {
+    width: 150px;
+    padding: 10px;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+.sticky + .content {
+    padding-top: 60px;
+  }
+
