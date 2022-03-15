@@ -59,7 +59,6 @@
 }
 .picks-bid-btn:hover i {
     transform: rotate(180deg);
-
 }
 .auction-item-box .top-like-btn {
     position: absolute;

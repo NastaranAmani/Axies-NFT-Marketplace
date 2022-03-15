@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    margin-top: 120px;
 }
 .hero-left-item {
     line-height: 7.5rem;
@@ -21,12 +22,10 @@
     float: left;
     margin-right: 10px;
     margin-top: 1px;
-}.hero-btn {
+}
+.hero-btn {
     margin-right: 10px;
 }
-/* .hero-left-item .span-1 {
-
-} */
 .hero-left-item .span-2 {
     color: #9550E5;
 }
@@ -38,8 +37,16 @@
 .hero-img-2 {
   z-index: 4;
 } */
-.hero-right-item {
-    animation: hero 10s ease-in-out 0s infinite normal forwards;
+.hero-img-1 {
+  position: relative;
+  
+}
+.hero-img-2 {
+  position: absolute;
+  left: 70%;
+  top: 18%;
+  animation: hero 10s ease-in-out 0s infinite normal forwards;
+  
 }
 
 /* @keyframes hero-blob {

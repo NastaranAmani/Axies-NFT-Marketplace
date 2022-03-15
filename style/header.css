@@ -22,6 +22,8 @@
 }
 .nav-list {
     margin: 20px;
+    position: relative;
+    display: inline-block;
 }
 .nav-link {
     color: #fff;
@@ -57,8 +59,13 @@
 }
 .dropdown-home {
     display: none;
+    position: absolute;
+    z-index: 1;
     margin-top: 10px;
     border-radius: 10px;
+}
+.dropdown-home li {
+    display: block;
 }
 .navbar-nav ul:hover {
     transform: translateY(0);
