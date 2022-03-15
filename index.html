@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/layout.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/hero.css">
@@ -14,6 +16,7 @@
     <link rel="stylesheet" href="style/todaysPicks.css">
     <link rel="stylesheet" href="style/popularCollection.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="script.js">
     <title>Axies</title>
 </head>
 <body>
@@ -27,24 +30,61 @@
                 </div>
                 <div class="navbar-nav">
                     <ul class="nav-lists">
-                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
-                        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
-                        crossorigin="anonymous" referrerpolicy="no-referrer" />
-                        <li class="nav-list">
-                            <a class="nav-link" href="">Home <i class="fa-solid fa-angle-down"></i></a>
-                            <!-- <div class="dropdown-home">
+                        <li class="nav-list"><a class="nav-link" href="">Home <i class="fa-solid fa-angle-down"></i></a>
+                              <div class="dropdown-home">
                                 <ul>
                                     <li><a href="">Home 1</a></li>
                                     <li><a href="">Home 2</a></li>
                                     <li><a href="">Home 3</a></li>
                                 </ul>
-                            </div> -->
+                            </div>
                         </li>
-                        <li class="nav-list"><a class="nav-link" href="">Explore <i class="fa-solid fa-angle-down"></i></a></li>
-                        <li class="nav-list"><a class="nav-link" href="">Activity <i class="fa-solid fa-angle-down"></i></a></li>
-                        <li class="nav-list"><a class="nav-link" href="">Community <i class="fa-solid fa-angle-down"></i></a></li>
-                        <li class="nav-list"><a class="nav-link" href="">Pages <i class="fa-solid fa-angle-down"></i></a></li>
-                        <li class="nav-list"><a class="nav-link" href="">Contact <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li class="nav-list"><a class="nav-link" href="">Explore <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-home">
+                                <ul>
+                                    <li><a href="">Explore 1</a></li>
+                                    <li><a href="">Explore 2</a></li>
+                                    <li><a href="">Explore 3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-list"><a class="nav-link" href="">Activity <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-home">
+                                <ul>
+                                    <li><a href="">Activity 1</a></li>
+                                    <li><a href="">Activity 2</a></li>
+                                    <li><a href="">Activity 3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-list"><a class="nav-link" href="">Community <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-home">
+                                <ul>
+                                    <li><a href="">Community 1</a></li>
+                                    <li><a href="">Community 2</a></li>
+                                    <li><a href="">Community 3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-list"><a class="nav-link" href="">Pages <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-home">
+                                <ul>
+                                    <li><a href="">Pages 1</a></li>
+                                    <li><a href="">Pages 2</a></li>
+                                    <li><a href="">Pages 3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-list"><a class="nav-link" href="">Contact <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-home">
+                                <ul>
+                                    <li><a href="">Contact 1</a></li>
+                                    <li><a href="">Contact 2</a></li>
+                                    <li><a href="">Contact 3</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="search">
@@ -54,11 +94,11 @@
                     <button class="btn btn-primary">Wallet contact<i class="fa-solid fa-wallet"></i></button>
                 </div>
                 <div class="switch">
-                    <a class="sun-moon" href="#">
+                    <a class="sun-moon sun" href="#">
                         <img src="img/01_header/sun.png" alt="sun logo">
                     </a>
                     <a class="sun-moon moon" href="#">
-                        <img src="img/01_header/moon-2.png" alt="moon logo">
+                        <img src="img/01_header/moon-23.png" alt="moon logo">
                     </a>
                 </div>
             </div>
@@ -139,23 +179,37 @@
         </section>
         <section id="auction">
             <div class="container">
-                <h3>
+                <div class="explore-more">
+                     <h3>
                     Live Auctions
-                </h3>
+                    </h3>
+                    <button type="button" class="explore-btn explore-1">
+                        EXPLORE MORE
+                    </button>
+                </div>
+
                 <div class="auction-wrapper">
                     <div class="auction-item">
                         <div class="auction-item-box auction-active">
                             <img class="auction-img" src="img/03_Live Auctions/card-item8.jpg" alt="">
-                            <p>“Hamlet Contemplates Yorick’s...</p>
+                            <button type="button" class="btn hover-btn-1">
+                                    Place Bid
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                            <a class="btn timer-btn">
+                                5 : 22 : 23 : 08
+                                <i class="fa-solid fa-fire-flame-curved"></i>
+                            </a>
+                            <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                             <div class="creator-row">
                                 <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
                                 <div class="creator-text">
                                   <span class="creator">Creator</span>
-                                  <span class="creator-name">Salvador Dali</span> 
+                                  <a href=""><span class="creator-name">Salvador Dali</span></a> 
                                 </div>
-                                <button type="button" class="btn btn-primary creator-btn">
+                                <a class="btn btn-primary creator-btn">
                                     BSC
-                                </button>
+                                </a>
                             </div>
                        
                             <div class="current-bid">
@@ -163,32 +217,34 @@
                                     <span class="current-title">Current Bid </span>
                                     <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                   </div>
-                                <button type="button" class="btn btn-primary bid-btn">
+                                <button type="button" class="btn bid-btn">
                                     100
-                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
                                 </button>
                             </div>
                         </div>
-                        <!-- <div class="hover-btn">
-                            <button type="button" class="btn btn-primary hover-btn-1">
-                                Place bid
-                                <i class="fa-solid fa-bag-shopping"></i>
-                            </button>
-                        </div> -->
                     </div>
                     <div class="auction-item">
                         <div class="auction-item-box auction-active">
                             <img class="auction-img" src="img/03_Live Auctions/image-box-10.jpg" alt="">
-                            <p>“Hamlet Contemplates Yorick’s...</p>
+                            <button type="button" class="btn hover-btn-1">
+                                Place Bid
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                            <a class="btn timer-btn">
+                                5 : 22 : 23 : 08
+                                <i class="fa-solid fa-fire-flame-curved"></i>
+                            </a>
+                            <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                             <div class="creator-row">
                                 <img class="creator-img" src="img/04_Top Seller/avt-2.jpg" alt="">
                                 <div class="creator-text">
                                   <span class="creator">Creator</span>
-                                  <span class="creator-name">Salvador Dali</span> 
+                                  <a href=""><span class="creator-name">Salvador Dali</span></a> 
                                 </div>
-                                <button type="button" class="btn btn-primary creator-btn">
+                                <a class="btn btn-primary creator-btn">
                                     BSC
-                                </button>
+                                </a>
                             </div>
                        
                             <div class="current-bid">
@@ -196,9 +252,9 @@
                                     <span class="current-title">Current Bid </span>
                                     <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                   </div>
-                                <button type="button" class="btn btn-primary bid-btn">
+                                <button type="button" class="btn bid-btn">
                                     100
-                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
                                 </button>
                             </div>
                         </div>
@@ -206,16 +262,24 @@
                     <div class="auction-item">
                         <div class="auction-item-box auction-active">
                             <img class="auction-img" src="img/03_Live Auctions/image-box-11.jpg" alt="">
-                            <p>“Hamlet Contemplates Yorick’s...</p>
+                            <button type="button" class="btn hover-btn-1">
+                                Place Bid
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                            <a class="btn timer-btn">
+                                5 : 22 : 23 : 08
+                                <i class="fa-solid fa-fire-flame-curved"></i>
+                            </a>
+                            <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                             <div class="creator-row">
                                 <img class="creator-img" src="img/04_Top Seller/avt-3.jpg" alt="">
                                 <div class="creator-text">
                                   <span class="creator">Creator</span>
-                                  <span class="creator-name">Salvador Dali</span> 
+                                  <a href=""><span class="creator-name">Salvador Dali</span></a> 
                                 </div>
-                                <button type="button" class="btn btn-primary creator-btn">
+                                <a class="btn btn-primary creator-btn">
                                     BSC
-                                </button>
+                                </a>
                             </div>
                        
                             <div class="current-bid">
@@ -223,9 +287,9 @@
                                     <span class="current-title">Current Bid </span>
                                     <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                   </div>
-                                <button type="button" class="btn btn-primary bid-btn">
+                                <button type="button" class="btn bid-btn">
                                     100
-                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
                                 </button>
                             </div>
                         </div>
@@ -233,16 +297,24 @@
                     <div class="auction-item">
                         <div class="auction-item-box auction-active">
                             <img class="auction-img" src="img/03_Live Auctions/image-box-21.jpg" alt="">
-                            <p>“Hamlet Contemplates Yorick’s...</p>
+                            <button type="button" class="btn hover-btn-1">
+                                Place Bid
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                            <a class="btn timer-btn">
+                                5 : 22 : 23 : 08
+                                <i class="fa-solid fa-fire-flame-curved"></i>
+                            </a>
+                            <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                             <div class="creator-row">
                                 <img class="creator-img" src="img/04_Top Seller/avt-4.jpg" alt="">
                                 <div class="creator-text">
                                   <span class="creator">Creator</span>
-                                  <span class="creator-name">Salvador Dali</span> 
+                                  <a href=""><span class="creator-name">Salvador Dali</span></a>
                                 </div>
-                                <button type="button" class="btn btn-primary creator-btn">
+                                <a class="btn btn-primary creator-btn">
                                     BSC
-                                </button>
+                                </a>
                             </div>
                        
                             <div class="current-bid">
@@ -250,9 +322,9 @@
                                     <span class="current-title">Current Bid </span>
                                     <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                   </div>
-                                <button type="button" class="btn btn-primary bid-btn">
+                                <button type="button" class="btn bid-btn">
                                     100
-                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
                                 </button>
                             </div>
                         </div>
@@ -262,9 +334,14 @@
         </section>
         <section id="popular-collection">
             <div class="container">
-                <h3>
-                    Popular Collection
-                </h3>
+                <div class="explore-more">
+                    <h3>
+                   Popular Collection
+                   </h3>
+                   <button type="button" class="explore-btn">
+                       EXPLORE MORE
+                   </button>
+               </div>
                 <div class="popular-wrapper">
                     <div class="popular-box popular-active">
                         <div class="popular-img">
@@ -279,13 +356,13 @@
                         <div class="popular-box-content">
                             <img class="creator-img" src="img/04_Top Seller/avt-1.jpg" alt="">
                                 <div class="creator-text">
-                                    <p>Creative Art Collection</p>
+                                    <a href=""><p>Creative Art Collection</p></a>
                                   <span class="creator">Created by</span>
-                                  <span class="creator-name">Salvador Dali</span> 
+                                  <a href=""><span class="creator-name">Salvador Dali</span></a>  
                                 </div>
-                                <button type="button" class="btn btn-primary bid-btn">
+                                <button type="button" class="btn bid-btn">
                                     100
-                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
                                 </button>
                         </div>
                     </div>
@@ -302,13 +379,13 @@
                         <div class="popular-box-content">
                             <img class="creator-img" src="img/04_Top Seller/avt-8.jpg" alt="">
                                 <div class="creator-text">
-                                    <p>Creative Art Collection</p>
+                                    <a href=""><p>Creative Art Collection</p></a>
                                   <span class="creator">Created by</span>
-                                  <span class="creator-name">Salvador Dali</span> 
+                                  <a href=""><span class="creator-name">Salvador Dali</span></a>  
                                 </div>
-                                <button type="button" class="btn btn-primary bid-btn">
+                                <button type="button" class="btn bid-btn">
                                     100
-                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
                                 </button>
                         </div>
                     </div>
@@ -325,13 +402,13 @@
                         <div class="popular-box-content">
                             <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
                                 <div class="creator-text">
-                                    <p>Creative Art Collection</p>
+                                    <a href=""><p>Creative Art Collection</p></a>
                                   <span class="creator">Created by</span>
-                                  <span class="creator-name">Salvador Dali</span> 
+                                  <a href=""><span class="creator-name">Salvador Dali</span></a> 
                                 </div>
-                                <button type="button" class="btn btn-primary bid-btn">
+                                <button type="button" class="btn bid-btn">
                                     100
-                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
                                 </button>
                         </div>
                     </div>
@@ -349,6 +426,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-1.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Crispin Berry</span>
                                 <span class="seller-num">214.2 ETH</span>
@@ -358,6 +436,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-4.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Windsor Lane</span>
                                 <span class="seller-num">120.7 ETH</span>
@@ -367,6 +446,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-3.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Blake Banks</span>
                                 <span class="seller-num">68.2 ETH</span>
@@ -376,6 +456,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-6.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Matt Ramos</span>
                                 <span class="seller-num">38.4 ETH</span>
@@ -385,6 +466,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-7.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Crispin Berry</span>
                                 <span class="seller-num">214.2 ETH</span>
@@ -396,6 +478,8 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-2.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Tommy Alvarez</span>
                                 <span class="seller-num">170.3 ETH</span>
@@ -405,6 +489,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-5.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Andy Hurlbutt</span>
                                 <span class="seller-num">82.79 ETH</span>
@@ -414,6 +499,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-8.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Monica Lucas</span>
                                 <span class="seller-num">52.8 ETH</span>
@@ -423,6 +509,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-9.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Harper Wilcher</span>
                                 <span class="seller-num">29.2 ETH</span>
@@ -432,6 +519,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-4.jpg" alt="">
+                            <i class="fa-solid fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Crispin Berry</span>
                                 <span class="seller-num">214.2 ETH</span>
@@ -444,7 +532,14 @@
         </section>
         <section id="todays-Picks">
             <div class="container">
-                <h3>Today's Picks</h3>
+                <div class="explore-more">
+                    <h3>
+                        Today's Picks
+                   </h3>
+                   <button type="button" class="explore-btn">
+                       EXPLORE MORE
+                   </button>
+               </div>
                 <div class="picks-buttons">
                     <div class="picks-buttons-1">
                         <button type="button" class="btn btn-primary pick-btn">
@@ -476,16 +571,20 @@
                         <div class="auction-item">
                             <div class="auction-item-box auction-active">
                                 <img class="auction-img" src="img/05_Today's Picks/card-item-3.jpg" alt="">
-                                <p>“Hamlet Contemplates Yorick’s...</p>
+                                <button type="button" class="btn bid-btn top-like-btn">
+                                    100
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                                <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                                 <div class="creator-row">
-                                    <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
+                                    <img class="creator-img" src="img/04_Top Seller/avt-1.jpg" alt="">
                                     <div class="creator-text">
                                       <span class="creator">Creator</span>
-                                      <span class="creator-name">Salvador Dali</span> 
+                                      <a href=""><span class="creator-name">Salvador Dali</span></a>  
                                     </div>
-                                    <button type="button" class="btn btn-primary creator-btn">
+                                    <a class="btn btn-primary creator-btn">
                                         BSC
-                                    </button>
+                                    </a>
                                 </div>
                            
                                 <div class="current-bid">
@@ -493,26 +592,30 @@
                                         <span class="current-title">Current Bid </span>
                                         <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                       </div>
-                                      <button type="button" class="btn btn-primary picks-bid-btn">
+                                      <a href="" class="btn picks-bid-btn">
                                         View History
                                         <i class="fa-solid fa-arrows-rotate"></i>
-                                    </button>
+                                   </a>
                                 </div>
                             </div>
                         </div>
                         <div class="auction-item">
                             <div class="auction-item-box auction-active">
                                 <img class="auction-img" src="img/05_Today's Picks/image-box-11.jpg" alt="">
-                                <p>“Hamlet Contemplates Yorick’s...</p>
+                                <button type="button" class="btn bid-btn top-like-btn">
+                                    100
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                                <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                                 <div class="creator-row">
-                                    <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
+                                    <img class="creator-img" src="img/04_Top Seller/avt-3.jpg" alt="">
                                     <div class="creator-text">
                                       <span class="creator">Creator</span>
-                                      <span class="creator-name">Salvador Dali</span> 
+                                      <a href=""><span class="creator-name">Salvador Dali</span></a>  
                                     </div>
-                                    <button type="button" class="btn btn-primary creator-btn">
+                                    <a class="btn btn-primary creator-btn">
                                         BSC
-                                    </button>
+                                    </a>
                                 </div>
                            
                                 <div class="current-bid">
@@ -520,26 +623,30 @@
                                         <span class="current-title">Current Bid </span>
                                         <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                       </div>
-                                      <button type="button" class="btn btn-primary picks-bid-btn">
+                                      <a href="" class="btn picks-bid-btn">
                                         View History
                                         <i class="fa-solid fa-arrows-rotate"></i>
-                                    </button>
+                                   </a>
                                 </div>
                             </div>
                         </div>
                         <div class="auction-item">
                             <div class="auction-item-box auction-active">
                                 <img class="auction-img" src="img/05_Today's Picks/card-item-2.jpg" alt="">
-                                <p>“Hamlet Contemplates Yorick’s...</p>
+                                <button type="button" class="btn bid-btn top-like-btn">
+                                    100
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                                <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                                 <div class="creator-row">
-                                    <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
+                                    <img class="creator-img" src="img/04_Top Seller/avt-4.jpg" alt="">
                                     <div class="creator-text">
                                       <span class="creator">Creator</span>
-                                      <span class="creator-name">Salvador Dali</span> 
+                                      <a href=""><span class="creator-name">Salvador Dali</span></a>  
                                     </div>
-                                    <button type="button" class="btn btn-primary creator-btn">
+                                    <a class="btn btn-primary creator-btn">
                                         BSC
-                                    </button>
+                                    </a>
                                 </div>
                            
                                 <div class="current-bid">
@@ -547,26 +654,30 @@
                                         <span class="current-title">Current Bid </span>
                                         <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                       </div>
-                                      <button type="button" class="btn btn-primary picks-bid-btn">
+                                      <a href="" class="btn picks-bid-btn">
                                         View History
                                         <i class="fa-solid fa-arrows-rotate"></i>
-                                    </button>
+                                   </a>
                                 </div>
                             </div>
                         </div>
                         <div class="auction-item">
                             <div class="auction-item-box auction-active">
                                 <img class="auction-img" src="img/05_Today's Picks/card-item-7.jpg" alt="">
-                                <p>“Hamlet Contemplates Yorick’s...</p>
+                                <button type="button" class="btn bid-btn top-like-btn">
+                                    100
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                                <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                                 <div class="creator-row">
                                     <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
                                     <div class="creator-text">
                                       <span class="creator">Creator</span>
-                                      <span class="creator-name">Salvador Dali</span> 
+                                      <a href=""><span class="creator-name">Salvador Dali</span></a>  
                                     </div>
-                                    <button type="button" class="btn btn-primary creator-btn">
+                                    <a class="btn btn-primary creator-btn">
                                         BSC
-                                    </button>
+                                    </a>
                                 </div>
                            
                                 <div class="current-bid">
@@ -574,10 +685,10 @@
                                         <span class="current-title">Current Bid </span>
                                         <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                       </div>
-                                      <button type="button" class="btn btn-primary picks-bid-btn">
+                                      <a href="" class="btn picks-bid-btn">
                                         View History
                                         <i class="fa-solid fa-arrows-rotate"></i>
-                                    </button>
+                                   </a>
                                 </div>
                             </div>
                         </div>
@@ -586,16 +697,20 @@
                         <div class="auction-item">
                             <div class="auction-item-box auction-active">
                                 <img class="auction-img" src="img/05_Today's Picks/card-item-9.jpg" alt="">
-                                <p>“Hamlet Contemplates Yorick’s...</p>
+                                <button type="button" class="btn bid-btn top-like-btn">
+                                    100
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                                <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                                 <div class="creator-row">
-                                    <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
+                                    <img class="creator-img" src="img/04_Top Seller/avt-2.jpg" alt="">
                                     <div class="creator-text">
                                       <span class="creator">Creator</span>
-                                      <span class="creator-name">Salvador Dali</span> 
+                                      <a href=""><span class="creator-name">Salvador Dali</span></a>  
                                     </div>
-                                    <button type="button" class="btn btn-primary creator-btn">
+                                    <a class="btn btn-primary creator-btn">
                                         BSC
-                                    </button>
+                                    </a>
                                 </div>
                            
                                 <div class="current-bid">
@@ -603,26 +718,30 @@
                                         <span class="current-title">Current Bid </span>
                                         <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                       </div>
-                                      <button type="button" class="btn btn-primary picks-bid-btn">
+                                      <a href="" class="btn picks-bid-btn">
                                         View History
                                         <i class="fa-solid fa-arrows-rotate"></i>
-                                    </button>
+                                   </a>
                                 </div>
                             </div>
                         </div>
                         <div class="auction-item">
                             <div class="auction-item-box auction-active">
                                 <img class="auction-img" src="img/05_Today's Picks/card-item8.jpg" alt="">
-                                <p>“Hamlet Contemplates Yorick’s...</p>
+                                <button type="button" class="btn bid-btn top-like-btn">
+                                    100
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                                <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                                 <div class="creator-row">
-                                    <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
+                                    <img class="creator-img" src="img/04_Top Seller/avt-5.jpg" alt="">
                                     <div class="creator-text">
                                       <span class="creator">Creator</span>
-                                      <span class="creator-name">Salvador Dali</span> 
+                                      <a href=""><span class="creator-name">Salvador Dali</span></a>  
                                     </div>
-                                    <button type="button" class="btn btn-primary creator-btn">
+                                    <a class="btn btn-primary creator-btn">
                                         BSC
-                                    </button>
+                                    </a>
                                 </div>
                            
                                 <div class="current-bid">
@@ -630,26 +749,30 @@
                                         <span class="current-title">Current Bid </span>
                                         <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                       </div>
-                                      <button type="button" class="btn btn-primary picks-bid-btn">
+                                      <a href="" class="btn picks-bid-btn">
                                         View History
                                         <i class="fa-solid fa-arrows-rotate"></i>
-                                    </button>
+                                   </a>
                                 </div>
                             </div>
                         </div>
                         <div class="auction-item">
                             <div class="auction-item-box auction-active">
                                 <img class="auction-img" src="img/05_Today's Picks/card-item-4.jpg" alt="">
-                                <p>“Hamlet Contemplates Yorick’s...</p>
+                                <button type="button" class="btn bid-btn top-like-btn">
+                                    100
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                                <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                                 <div class="creator-row">
-                                    <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
+                                    <img class="creator-img" src="img/04_Top Seller/avt-6.jpg" alt="">
                                     <div class="creator-text">
                                       <span class="creator">Creator</span>
-                                      <span class="creator-name">Salvador Dali</span> 
+                                      <a href=""><span class="creator-name">Salvador Dali</span></a>  
                                     </div>
-                                    <button type="button" class="btn btn-primary creator-btn">
+                                    <a class="btn btn-primary creator-btn">
                                         BSC
-                                    </button>
+                                    </a>
                                 </div>
                            
                                 <div class="current-bid">
@@ -657,26 +780,30 @@
                                         <span class="current-title">Current Bid </span>
                                         <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                       </div>
-                                      <button type="button" class="btn btn-primary picks-bid-btn">
+                                      <a href="" class="btn picks-bid-btn">
                                         View History
                                         <i class="fa-solid fa-arrows-rotate"></i>
-                                    </button>
+                                   </a>
                                 </div>
                             </div>
                         </div>
                         <div class="auction-item">
                             <div class="auction-item-box auction-active">
                                 <img class="auction-img" src="img/05_Today's Picks/image-box-11.jpg" alt="">
-                                <p>“Hamlet Contemplates Yorick’s...</p>
+                                <button type="button" class="btn bid-btn top-like-btn">
+                                    100
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                                <a href=""><p>“Hamlet Contemplates Yorick’s...</p></a>
                                 <div class="creator-row">
-                                    <img class="creator-img" src="img/04_Top Seller/avt-7.jpg" alt="">
+                                    <img class="creator-img" src="img/04_Top Seller/avt-8.jpg" alt="">
                                     <div class="creator-text">
                                       <span class="creator">Creator</span>
-                                      <span class="creator-name">Salvador Dali</span> 
+                                      <a href=""><span class="creator-name">Salvador Dali</span></a> 
                                     </div>
-                                    <button type="button" class="btn btn-primary creator-btn">
+                                    <a class="btn btn-primary creator-btn">
                                         BSC
-                                    </button>
+                                    </a>
                                 </div>
                            
                                 <div class="current-bid">
@@ -684,10 +811,10 @@
                                         <span class="current-title">Current Bid </span>
                                         <span class="current-num"> <b>4.89 ETH</b>  = $12.246</span> 
                                       </div>
-                                      <button type="button" class="btn btn-primary picks-bid-btn">
+                                      <a href="" class="btn picks-bid-btn">
                                         View History
                                         <i class="fa-solid fa-arrows-rotate"></i>
-                                    </button>
+                                   </a>
                                 </div>
                             </div>
                         </div>
@@ -754,7 +881,9 @@
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
                         <a href=""><i class="fa-brands fa-discord"></i></a>
                     </div>
+                    <button onclick="scrollToTop()" class="btn scroll-top"><i class="fa-solid fa-angle-up"></i></button>
                 </div>
+                
             </div>
         </div>
     </footer>

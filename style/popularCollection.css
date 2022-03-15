@@ -41,7 +41,7 @@
     -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
 }
 .popular-active:hover {
-    transform: translateY(-3rem);
+    transform: translateY(-2rem);
     background-color: #34495e;
     
 }

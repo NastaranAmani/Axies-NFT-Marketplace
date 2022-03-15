@@ -11,15 +11,36 @@
     padding-top: 50px;
     padding-bottom: 100px;
 }
+.explore-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.explore-btn {
+    font-family: inherit;
+    font-weight: 700;
+    padding: 5px 0px;
+    border: none;
+    border-bottom: solid 2px #4E3FEE;
+    box-shadow: none;
+    background-color: #14141F;
+    color: #fff;
+    margin-right: 30px;
+}
+.explore-1 {
+    background-color: #000;
+}
 .auction-item-box {
     background-color: #343444;
-    padding: 2.5rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     border-radius: 3rem;
     line-height: 4rem;
+    position: relative;
 }
 
 .auction-img {
@@ -60,18 +81,27 @@
 }
 .creator-btn {
     background-color: #5142FB;
-    padding: 6px;
+    padding: 0px 8px;
     margin-left: 85px;
-    margin-top: 5px;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
 .bid-btn {
     border: none;
-    margin-left: 95px;
+    margin-left: 88px;
     margin-top: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #14141F;
 }
-.bid-btn i:hover {
+.bid-btn i {
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+/* .bid-btn i:hover {
     color: red;
-}
+} */
 .current-text {
     margin-top: 20px;
 }
@@ -98,17 +128,52 @@
     -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
 }
 .auction-active:hover {
-    transform: translateY(-3rem);
+    transform: translateY(-2rem);
     background-color: #34495e;
 }
 
-/* .hover-btn-1 {
+.hover-btn-1 {
     color: #000;
     border: none;
     background-color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: 15px;
 }
 .hover-btn-1 i {
     float: left;
     margin-right: 10px;
     margin-top: 1px;
+}
+.hover-btn-1:hover i {
+    color: #4E3FEE;
+}
+.auction-item-box:hover .hover-btn-1 {
+    display: block;
+} 
+/* .bid-btn i {
+    transition: transform .7s ease-in-out;
 } */
+.bid-btn:hover i {
+    color: red;  
+}
+.timer-btn {
+    color: #fff;
+    border-radius: 15px;
+    padding: 0px 10px;
+    position: absolute;
+    background-color: #343444;
+    border: none;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.timer-btn i {
+    float: left;
+    margin-right: 10px;
+    margin-top: 12px;
+    color: #6c5ce7;
+}

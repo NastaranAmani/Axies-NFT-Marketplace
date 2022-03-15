@@ -4,9 +4,9 @@
 }
 .picks-bid-btn {
     border: none;
-    margin-left: 35px;
-    margin-top: 20px;
-    
+    margin-left: 25px;
+    margin-top: 18px;
+    color: #fff;
 }
 .fa-arrows-rotate {
     float: left;
@@ -53,5 +53,19 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 50px;
+}
+.picks-bid-btn i {
+    transition: transform .7s ease-in-out;
+}
+.picks-bid-btn:hover i {
+    transform: rotate(180deg);
+
+}
+.auction-item-box .top-like-btn {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 

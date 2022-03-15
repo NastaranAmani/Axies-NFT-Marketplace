@@ -1,5 +1,6 @@
 #hero {
     min-height: 88vh;
+    margin-top: 50px;
 }
 .hero-wrapper {
     display: flex;
