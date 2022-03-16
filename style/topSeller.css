@@ -76,10 +76,12 @@
   } */
 .fa-circle-check {
     position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
     color: #4E3FEE;
     font-size: 30px;
     top: 88%;
     left: 45%;
     transform: translate(-50%, -50%); 
-    
+ 
 }
