@@ -1,0 +1,18 @@
+.vertical-social {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    top: 37%;
+    left: 0;
+    z-index: 1;
+    background-color: var(--dark--color);
+    padding: 2rem 1rem;
+    border-radius: 4rem;
+    box-shadow: 0px 5px 15px 0 rgba(149, 80, 229, 0.3);
+}
+.vertical-social i {
+    color: var(--white--color);
+    height: 3.5rem;
+}

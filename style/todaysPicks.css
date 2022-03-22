@@ -1,17 +1,16 @@
 #todays-Picks {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 5rem 0rem;
 }
 .picks-bid-btn {
     border: none;
     margin-left: 25px;
     margin-top: 18px;
-    color: #fff;
+    color: var(--white--color);
 }
 .fa-arrows-rotate {
     float: left;
-    margin-right: 10px;
-    margin-top: 1px;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
 }
 .picks1, .picks2 {
     display: flex;
@@ -20,39 +19,39 @@
     align-items: center;  
 }
 .picks1 {
-    margin-bottom: 50px;
-    padding-top: 50px;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
 }
 .picks-buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 .picks-buttons-1 {
-    margin-left: 30px;
+    margin-left: 3rem;
 }
 .picks-buttons-2 {
-    margin-right: 30px;
+    margin-right: 3rem;
 }
 .pick-btn {
-    border-color: #ADADB0;
+    border-color: var(--light--color);
 }
 .pick-btn:hover {
-    border-color: #34495e;
-    background-color: #34495e;
+    border-color: var(--hover--color);
+    background-color: var(--hover--color);
 }
 .pick-btn i{
     float: left;
-    margin-right: 10px;
-    margin-top: 1px;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
 }
 .load-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 5rem;
 }
 .picks-bid-btn i {
     transition: transform .7s ease-in-out;

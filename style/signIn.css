@@ -1,0 +1,76 @@
+#sign-in {
+    min-height: 88vh;
+}
+
+.signin-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.signin-left-item img {
+    margin-top: 7rem;
+    width: 60rem;
+    height: 60rem;
+}
+.signin-right-item {
+    margin-top: 8rem;
+    background-color: var(--card--color);
+    border-radius: 0.5rem;
+    padding: 10rem;
+}
+.signin-right-item h2 {
+    color: var(--white--color);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.signin-box input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: var(--card--color);
+    border: solid 0.2rem var(--light--color);
+    border-radius: 0.5rem;
+    color: var(--light--color);
+}
+.signin-box label {
+    color: var(--white--color);
+    font-weight: 600;
+}
+.signinbtn {
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    background: linear-gradient(117deg, rgba(206,86,208,1) 0%, rgba(73,40,146,1) 100%);
+    margin-bottom: 1.5rem;
+}
+.signin-social-links {
+    padding-top: 5rem;
+    text-align: center;
+}
+.signin-social-links i {
+    color: var(--white--color);
+}
+.signin-social-links a {
+    margin: 0 1rem 1rem 0;
+    padding: 0.8rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+.signin-social-links .facebook {
+    background-color: #3b5998;
+    padding: 0.8rem 1.1rem;
+}
+
+.signin-social-links .twitter {
+    background-color: #00acee;
+}
+.signin-social-links .mail {
+    background-color: red;
+}
+.signin-social-links .github {
+    background-color: #171515;
+}

@@ -1,15 +1,15 @@
 #auction {
-    background-color: #030303;
+    background-color: var(--black--color);
     min-height: 70vh;
-    padding-top: 50px;
+    padding-top: 5rem;
 }
 .auction-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
 }
 .explore-more {
     display: flex;
@@ -20,19 +20,19 @@
 .explore-btn {
     font-family: inherit;
     font-weight: 700;
-    padding: 5px 0px;
+    padding: 0.5rem 0rem;
     border: none;
-    border-bottom: solid 2px #4E3FEE;
+    border-bottom: solid 0.2rem var(--btn--color);
     box-shadow: none;
-    background-color: #14141F;
-    color: #fff;
-    margin-right: 30px;
+    background-color: var(--dark--color);
+    color: var(--white--color);
+    margin-right: 3rem;
 }
 .explore-1 {
-    background-color: #000;
+    background-color: var(--black--color);
 }
 .auction-item-box {
-    background-color: #343444;
+    background-color: var( --card--color);
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@
 }
 
 .auction-img {
-    border-radius: 30px;
+    border-radius: 3rem;
 }
 .creator-row {
     display: flex;
@@ -52,14 +52,14 @@
     justify-content: space-around;
     align-items: flex-start;
     line-height: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 
 }
 .creator-img {
-    border-radius: 30px;
-    width: 50px;
-    height: 50px;
-    margin-right: 25px;
+    border-radius: 3rem;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2.5rem;
 }
 .creator-text, .current-text{
     display: flex;
@@ -68,7 +68,7 @@
 }
 .creator-text {
     margin-left: -15px;
-    margin-top: 6px;
+    margin-top: 0.6rem;
 }
 .current-bid {
     line-height: 2rem;
@@ -76,51 +76,51 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    border-top: solid 3px #242431;
+    border-top: solid 0.3rem var(--dark--color2);
     
 }
 .creator-btn {
-    background-color: #5142FB;
-    padding: 0px 8px;
-    margin-left: 85px;
-    margin-top: 10px;
+    background-color: var(--btn--color);
+    padding: 0rem 0.8rem;
+    margin-left: 8.5rem;
+    margin-top: 1rem;
     font-size: 1.2rem;
 }
 .bid-btn {
     border: none;
-    margin-left: 88px;
-    margin-top: 20px;
+    margin-left: 8.8rem;
+    margin-top: 2rem;
     font-size: 1.2rem;
-    color: #fff;
-    background-color: #14141F;
+    color: var(--white--color);
+    background-color: var(--dark--color);
 }
 .bid-btn i {
     float: left;
-    margin-right: 10px;
-    margin-top: 1px;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
 }
 /* .bid-btn i:hover {
     color: red;
 } */
 .current-text {
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 .creator, .current-title {
-    color: #ADADB0;
-    font-size: 12px;
+    color: var(--light--color);
+    font-size: 1.2rem;
 }
 .creator-name {
     color: #fff;
     font-weight: 600;
 }
 .current-num {
-    color: #fff;
+    color: var(--white--color);
     font-weight: 600;
 }
 .auction-item-box p {
    font-weight: 600;
-   font-size: 20px;
-   margin-bottom: 10px;
+   font-size: 2rem;
+   margin-bottom: 1rem;
 }
 .auction-active {
     transition: all 0.3s ease-in-out;
@@ -129,43 +129,40 @@
 }
 .auction-active:hover {
     transform: translateY(-2rem);
-    background-color: #34495e;
+    background-color: var(--hover--color);
 }
 
 .hover-btn-1 {
-    color: #000;
+    color: var(--black--color);
     border: none;
-    background-color: #fff;
+    background-color: var(--white--color);
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    padding: 15px;
+    padding: 1.5rem;
 }
 .hover-btn-1 i {
     float: left;
-    margin-right: 10px;
-    margin-top: 1px;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
 }
 .hover-btn-1:hover i {
-    color: #4E3FEE;
+    color: var(--btn--color);
 }
 .auction-item-box:hover .hover-btn-1 {
     display: block;
 } 
-/* .bid-btn i {
-    transition: transform .7s ease-in-out;
-} */
 .bid-btn:hover i {
     color: red;  
 }
 .timer-btn {
-    color: #fff;
-    border-radius: 15px;
-    padding: 0px 10px;
+    color: var(--white--color);
+    border-radius: 1.5rem;
+    padding: 0rem 1rem;
     position: absolute;
-    background-color: #343444;
+    background-color: var(--card--color);
     border: none;
     top: 55%;
     left: 50%;
@@ -173,7 +170,7 @@
 }
 .timer-btn i {
     float: left;
-    margin-right: 10px;
-    margin-top: 12px;
-    color: #6c5ce7;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+    color: var(--purple--color);
 }

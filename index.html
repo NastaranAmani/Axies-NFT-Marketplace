@@ -16,10 +16,18 @@
     <link rel="stylesheet" href="style/todaysPicks.css">
     <link rel="stylesheet" href="style/popularCollection.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/verticalSocial.css">
     <link rel="stylesheet" href="script.js">
     <title>Axies</title>
 </head>
 <body>
+    <div class="vertical-social">
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-telegram"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-discord"></i></a>
+    </div>
     <header id="header">
         <div class="container">
             <div class="navbar">
@@ -31,13 +39,13 @@
                 <div class="navbar-nav">
                     <ul class="nav-lists">
                         <li class="nav-list"><a class="nav-link" href="">Home <i class="fa-solid fa-angle-down"></i></a>
-                              <div class="dropdown-home">
+                            <div class="dropdown-home">
                                 <ul>
                                     <li><a href="">Home 1</a></li>
                                     <li><a href="">Home 2</a></li>
                                     <li><a href="">Home 3</a></li>
                                 </ul>
-                            </div>
+                            </div> 
                         </li>
                         <li class="nav-list"><a class="nav-link" href="">Explore <i class="fa-solid fa-angle-down"></i></a>
                             <div class="dropdown-home">
@@ -88,14 +96,19 @@
                     </ul>
                 </div>
                 <div class="search">
-                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <form>
+                        <input type="text" name="search" placeholder="Search..." class="search-open">
+                    </form>   
                 </div>
+                
                 <div class="navbar-wallet">
+                    <a href="signin.html" target="_blank"><i class="fa-solid fa-lg fa-right-to-bracket"></i></a>
+                    
                     <button class="btn btn-primary">Wallet contact<i class="fa-solid fa-wallet"></i></button>
                 </div>
                 <div class="switch">
-                    <a class="sun-moon sun" href="#">
-                        <img src="img/01_header/sun.png" alt="sun logo">
+                    <a class="sun-moon" href="#">
+                        <img src="img/01_header/sun.png" onclick="myFunction()" alt="sun logo">
                     </a>
                     <a class="sun-moon moon" href="#">
                         <img src="img/01_header/moon-23.png" alt="moon logo">
@@ -336,7 +349,7 @@
             <div class="container">
                 <div class="explore-more">
                     <h3>
-                   Popular Collection
+                   Popular Collections
                    </h3>
                    <button type="button" class="explore-btn">
                        EXPLORE MORE
@@ -420,13 +433,13 @@
             <div class="container">
                 <div class="seller-wrapper">
                     <h3>
-                        Top Seller
+                        Top Sellers
                     </h3>
                   <div class="seller1">   
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-1.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Crispin Berry</span>
                                 <span class="seller-num">214.2 ETH</span>
@@ -436,7 +449,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-4.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Windsor Lane</span>
                                 <span class="seller-num">120.7 ETH</span>
@@ -446,7 +459,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-3.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Blake Banks</span>
                                 <span class="seller-num">68.2 ETH</span>
@@ -456,7 +469,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-6.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Matt Ramos</span>
                                 <span class="seller-num">38.4 ETH</span>
@@ -466,7 +479,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-7.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Crispin Berry</span>
                                 <span class="seller-num">214.2 ETH</span>
@@ -478,8 +491,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-2.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Tommy Alvarez</span>
                                 <span class="seller-num">170.3 ETH</span>
@@ -489,7 +501,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-5.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Andy Hurlbutt</span>
                                 <span class="seller-num">82.79 ETH</span>
@@ -499,7 +511,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-8.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Monica Lucas</span>
                                 <span class="seller-num">52.8 ETH</span>
@@ -509,7 +521,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-9.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Harper Wilcher</span>
                                 <span class="seller-num">29.2 ETH</span>
@@ -519,7 +531,7 @@
                     <div class="seller-id">
                         <div class="seller-id-box">
                             <img src="img/04_Top Seller/avt-4.jpg" alt="">
-                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-xl fa-circle-check"></i>
                             <div class="seller-content">
                                 <span class="seller-name">Crispin Berry</span>
                                 <span class="seller-num">214.2 ETH</span>

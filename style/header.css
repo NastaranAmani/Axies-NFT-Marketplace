@@ -51,9 +51,7 @@
     margin-top: 1px;
     float: left;
 }
-.search {
-    margin-right: -70px;
-}
+
 .search i {
     color: #fff;
 }
@@ -87,3 +85,22 @@
     padding: 10px;
 }
 
+input[type=text] {
+    width: 1.3rem;
+    background-color: var(--dark--color);
+    color: var(--white--color);
+    
+    border: solid 1px var(--btn--color);
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 90%;
+  }
+  .fa-right-to-bracket{
+      color: var(--white--color);
+      padding-right: 1rem;
+  }

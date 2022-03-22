@@ -1,11 +1,11 @@
 .seller-wrapper {
-    padding-top: 50px;
+    padding: 5rem 0rem;
 }
 .seller-wrapper h3 {
-    color: #fff;
+    color: var(--white--color);
     font-weight: 700;
-    font-size: 30px;
-    margin-left: 40px;
+    font-size: 3rem;
+    margin-left: 4rem;
 }
 .top-seller{
     min-height: 90vh;
@@ -17,17 +17,17 @@
     align-items: center;  
 }
 .seller1 {
-    margin-bottom: 30px;
-    padding-top: 50px;
+    margin-bottom: 3rem;
+    padding-top: 5rem;
 }
 .seller-name {
-    color: #fff;
-    font-size: 17px;
+    color: var(--white--color);
+    font-size: 1.7rem;
     font-weight: 700;
 }
 .seller-num {
-    color: #ADADB0;
-    font-size: 13px;
+    color: var(--light--color);
+    font-size: 1.3rem;
     font-weight: 600;
 }
 .seller-content {
@@ -40,46 +40,29 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    
     align-items: flex-start;
 }
 .seller-id-box img {
-    border-radius: 40px;
+    border-radius: 4rem;
 }
 .seller-content {
-    margin-top: 30px;
-    margin-left: 15px;
-    line-height: 25px;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    line-height: 2.5rem;
 }
 .seller-id {
-    border-radius: 30px;
-    padding: 5px;
+    border-radius: 3rem;
+    padding: 0.5rem;
     transition: all .3s ease-in-out;
 }
 .seller-id:hover{
     transform: scale(1.1);
 }
-/* .seller-id:hover {
-    
-    animation: seller .4s ease-in-out 0s 1 normal forwards;
-}
-@keyframes seller {
-    0% {
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-      transform: scale(1);
-    }
-  
-    100% {
-      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-      transform: scale(1.1);
-    }
-  } */
 .fa-circle-check {
     position: absolute;
-    background-color: #fff;
+    background-color: var(--white--color);
     border-radius: 50%;
-    color: #4E3FEE;
-    font-size: 30px;
+    color: var(--btn--color);
     top: 88%;
     left: 45%;
     transform: translate(-50%, -50%); 
