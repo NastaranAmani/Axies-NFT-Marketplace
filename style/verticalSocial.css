@@ -10,9 +10,25 @@
     background-color: var(--dark--color);
     padding: 2rem 1rem;
     border-radius: 4rem;
-    box-shadow: 0px 5px 15px 0 rgba(149, 80, 229, 0.3);
+    box-shadow: 0rem 0.5rem 0.5rem 0rem rgba(149,80,229,0.84);
 }
 .vertical-social i {
     color: var(--white--color);
-    height: 3.5rem;
+    height: 4rem;
 }
+.verical-h:hover i {
+    background: linear-gradient(117deg, rgba(206,86,208,1) 0%, rgba(73,40,146,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: vertical  0.8s ease 0s 1 normal forwards;
+}
+@keyframes vertical  {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
