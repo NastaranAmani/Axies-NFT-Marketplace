@@ -17,8 +17,7 @@
     align-items: center;  
 }
 .seller1 {
-    margin-bottom: 3rem;
-    padding-top: 5rem;
+    padding: 5rem 0;
 }
 .seller-name {
     color: var(--white--color);
@@ -44,6 +43,9 @@
 }
 .seller-id-box img {
     border-radius: 4rem;
+    width: 9rem;
+    height: 9rem;
+    object-fit: cover;
 }
 .seller-content {
     margin-top: 3rem;
@@ -64,7 +66,9 @@
     border-radius: 50%;
     color: var(--btn--color);
     top: 88%;
-    left: 45%;
+    left: 38%;
+    background-color: var(--white--color);
+    font-size: 1.2em;
     transform: translate(-50%, -50%); 
  
 }

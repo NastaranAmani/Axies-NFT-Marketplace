@@ -67,7 +67,7 @@
     align-items: flex-start; 
 }
 .creator-text {
-    margin-left: -15px;
+    margin-left: -1.5rem;
     margin-top: 0.6rem;
 }
 .current-bid {
@@ -128,8 +128,7 @@
     -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
 }
 .auction-active:hover {
-    transform: translateY(-2rem);
-    background-color: var(--hover--color);
+    transform: translateY(-1rem);
 }
 
 .hover-btn-1 {
