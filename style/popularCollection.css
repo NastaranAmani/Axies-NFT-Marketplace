@@ -41,7 +41,7 @@
     -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
 }
 .popular-active:hover {
-    transform: translateY(-2rem);
+    transform: translateY(-1rem);
     background: linear-gradient(297deg, rgba(194,55,196,1) 0%, rgba(54,26,116,1) 50%);
 }
 .creator-text p {
