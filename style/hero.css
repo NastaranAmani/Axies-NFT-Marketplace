@@ -7,8 +7,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
 }
+
+/*-----------------------left-----------------------*/
 .hero-left-item {
     display: flex;
     flex-direction: column;
@@ -19,7 +20,6 @@
 .hero-left-item {
     line-height: 7.5rem;
 }
-
 .fa-rocket, .fa-plus {
     float: left;
     margin-right: 1rem;
@@ -33,6 +33,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/*-----------------------right-----------------------*/
 .hero-img-1 {
   position: relative;
 }
