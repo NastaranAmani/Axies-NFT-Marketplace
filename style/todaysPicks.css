@@ -39,8 +39,9 @@
     border-color: var(--light--color);
 }
 .pick-btn:hover {
-    border-color: var(--hover--color);
-    background-color: var(--hover--color);
+    color: var(--black--color);
+    border-color: var(--white--color);
+    background-color: var(--white--color);
 }
 .pick-btn i{
     float: left;
