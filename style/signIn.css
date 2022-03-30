@@ -1,7 +1,6 @@
 #sign-in {
     min-height: 88vh;
 }
-
 .signin-wrapper {
     display: flex;
     flex-direction: row;
@@ -26,19 +25,19 @@
     font-size: 2.5rem;
 }
 .signin-box input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: var(--light--color);
     width: 100%;
     padding: 1.5rem;
-    margin: 0.5rem 0 2rem 0;
+    margin: 0.5rem 0 1rem 0;
     display: inline-block;
-    border: none;
-    background: var(--card--color);
-    border: solid 0.15rem var(--light--color);
-    border-radius: 0.5rem;
     color: var(--light--color);
+    background-color: var(--card--color);
+
 }
-.signin-box label {
-    color: var(--white--color);
-    font-weight: 600;
+.signin-box input:focus {
+    border-color: var(--btn--color);
 }
 .signinbtn {
     width: 100%;
@@ -54,7 +53,7 @@
     -webkit-transition: all 0.3s ease;
     border-radius: 0.5rem;
     background: linear-gradient(117deg, rgba(206,86,208,1) 0%, rgba(73,40,146,1) 100%);
-    margin-bottom: 1.5rem;
+    margin: 2.5rem 0 1.5rem 0;
 }
 .signinbtn:hover {
     background: linear-gradient(117deg, rgba(194,55,196,1) 0%, rgba(54,26,116,1) 100%);
