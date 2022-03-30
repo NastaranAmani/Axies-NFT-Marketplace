@@ -98,10 +98,11 @@
   transform: rotate(45deg);
   transition: transform 0.3s ease;
 }
-.nav-list:hover .navbar-arrow {
+.submenu:hover .navbar-arrow {
   transform: rotate(225deg);
   top: 28;
 }
+
 
 /*-----------------------search-----------------------*/
 .search i {
