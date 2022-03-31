@@ -48,6 +48,9 @@
     margin-right: 1rem;
     margin-top: 0.1rem;
 }
+.pick-btn:hover i {
+    color: var(--btn--color);
+}
 .load-btn {
     display: flex;
     flex-direction: row;
