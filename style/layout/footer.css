@@ -110,14 +110,20 @@
 }
 
 /*-----------------------scrollToTop-----------------------*/
-/* .scroll-top {
-    margin-top: 5rem;
-    margin-left: 21.5rem;
-    border-radius: 5rem;
-    border: none;
-    color: var(--black--color);
+.scrollToTop {
+    padding-top: 3rem;
+    padding-left: 21.8rem;
+}
+.top {
+    /* --offset: 50px; 
+    margin-top: calc(100vh + var(--offset)); */
+    padding: 9px 12px;
+    border-radius: 50px;
+    color: var(--btn--color);
     background-color: var(--white--color);
 }
-.scroll-top:hover {
-    transform: translateY(-0.5rem);
-} */
+
+
+  
+  
+  
