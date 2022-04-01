@@ -5,6 +5,7 @@
     z-index: 1;
     padding-top: 0.5rem;
     background: var(--dark--color);  
+    
 }
 
 /*-----------------------navbar-----------------------*/
@@ -13,7 +14,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
 }
+
 .nav-lists {
     display: flex;
     flex-direction: row;
@@ -22,11 +25,11 @@
 }
 .nav-list {
     margin: 2rem;
+    
 }
 .nav-link {
     color: var(--white--color);
     font-weight: 700;
-    
 }
 /* .fa-angle-down  {
     margin-left: 0.2rem;
@@ -89,8 +92,8 @@
 /*-----------------------navbar-arrow-----------------------*/
 .navbar-arrow {
   position: absolute;
-  right: 8;
-  top: 25;
+  right: 8%;
+  top: 43%;
   width: 0.6rem;
   height: 0.6rem;
   border: 1px solid var(--white--color);
@@ -100,7 +103,7 @@
 }
 .submenu:hover .navbar-arrow {
   transform: rotate(225deg);
-  top: 28;
+  top: 47%;
 }
 
 
