@@ -1,0 +1,261 @@
+.header-section {
+    background-image: url("/img/01_header/bg.jpg"); 
+}
+/*-----------------------title, page links-----------------------*/
+.title, .page-link {
+    text-align: center;
+}
+.title {
+    color: var(--white--color);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.content {
+    padding: 4rem 0rem;
+    line-height: 5rem;
+}
+.page-link .previous {
+    word-spacing: 1rem;
+}
+.page-link, .page-link a {
+    color: var(--light--color);
+}
+.page-link .active {
+    color: var(--white--color);
+    margin-left: 1rem;
+}
+.page-link a:hover {
+    color: var(--white--color);
+}
+/*-----------------------main-----------------------*/
+#item-details {
+    min-height: 90vh;
+    padding: 6rem 0;
+}
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------------------left-----------------------*/
+.item-details-left {
+    padding-top: 10rem;
+}
+.item-details-left img {
+    width: 60rem;
+    height: 60rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0 5rem;
+}
+/*-----------------------right-----------------------*/
+.item-details-right {
+    margin: 0 5rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 2.5rem;
+}
+.item-title h2 {
+   color: var(--white--color);
+   font-weight: 700;
+   font-size: 3.8rem;
+   padding-left: 1rem;
+}
+/*-----------------------buttons-----------------------*/
+.eye-btn, .heart-btn, .share-btn, .more-btn {
+    border: none;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: var(--white--color);
+    background-color: var(--card--color);
+}
+.eye-btn i {
+    float: left;
+    margin: 0.15rem 1rem 0 0;
+}
+.heart-btn i {
+    float: left;
+    margin: 0.15rem 1rem 0 0;
+}
+.heart-btn:hover i {
+    color: red;
+}
+.buttons {
+    display: flex;
+    padding: 1.5rem 0;
+}
+.share-btn {
+    margin-left: 42rem;
+}
+
+.eye-btn {
+    margin-left: 1rem;
+    cursor: context-menu;
+}
+
+/*-----------------------first two boxes-----------------------*/
+.name-boxes, .info-boxes {
+    display: flex;
+    justify-content: center;
+}
+.box-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--light--color);
+    line-height: 2rem;
+}
+.name-box-1, .name-box-2 {
+    display: flex;
+    background-color: var(--card--color);
+    padding: 1rem 13rem 1rem 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+.person-name {
+    color: var(--white--color);
+    font-weight: 700;
+}
+.person-img {
+  border-radius: 2rem;
+  width: 5rem;
+  height: 5rem;  
+  margin-right: 2rem;
+}
+.para p {
+    color: var(--light--color);
+    padding: 1rem 2rem;
+}
+/*-----------------------second two boxes-----------------------*/
+.info-box-1, .info-box-2 {
+    background-color: var(--card--color);
+    padding: 2rem 6rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+/* .info-box-1 p, .info-box-2 p {
+    margin: 1rem;
+} */
+.info-boxes span {
+    color: var(--white--color);
+    margin-right: 1rem;
+}
+
+/*-----------------------place bid button-----------------------*/
+.placebid i {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
+    color: var(--white--color);
+}
+.placebid {
+    border-color: var(--white--color);
+    background-color: transparent;
+    color: var(--white--color);
+    padding: 1.5rem 30rem;
+
+
+}
+.placebid-btn {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.placebid:hover {
+    background-color: var(--white--color);
+    color: var(--black--color);
+}
+.placebid:hover i {
+    color: var(--btn--color);
+}
+
+/* ----------------------------------------tab--------------------------------- */
+.tab {
+    overflow: hidden;
+
+  }
+.tablinks {
+    color: var(--white--color);
+    font-weight: 600;
+}
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1.4rem 1.6rem;
+    transition: 0.3s;
+    font-size: 1.7rem;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    color: var(--btn--color);
+    border-bottom: 2px solid var(--btn--color);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 0.6rem 1.2rem;
+
+  }
+
+
+.seller-id-box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: flex-start;
+    /* border-bottom: 1px solid var(--light--color); */
+    padding: 1rem;
+}
+.seller-id-box img {
+    border-radius: 2rem;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.seller-content {
+    margin-left: 1.5rem;
+    line-height: 1rem;
+}
+.seller-name {
+    color: var(--white--color);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.seller-num, .seller-bid {
+    color: var(--light--color);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+.seller-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.fa-circle-check {
+    position: absolute;
+    background-color: var(--white--color);
+    border-radius: 50%;
+    color: var(--btn--color);
+    top: 75%;
+    left: 8%;
+    background-color: var(--white--color);
+    transform: translate(-50%, -50%); 
+ 
+}
+.info-desc {
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+

@@ -1,0 +1,181 @@
+#auction {
+    background-color: var(--dark--color);
+    min-height: 70vh;
+    padding-top: 10rem;
+}
+.auction-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+/*-----------------------explore-btn-----------------------*/
+.explore-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.explore-btn {
+    font-family: inherit;
+    font-weight: 700;
+    padding: 0.5rem 0rem;
+    border: none;
+    border-bottom: solid 0.2rem var(--btn--color);
+    box-shadow: none;
+    background-color: var(--dark--color);
+    color: var(--white--color);
+    margin-right: 3rem;
+}
+.explore-1 {
+    background-color: var(--dark--color);
+}
+/*-----------------------box-----------------------*/
+.auction-item-box {
+    background-color: var(--card--color);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 3rem;
+    line-height: 4rem;
+    position: relative;
+}
+.auction-img {
+    border-radius: 3rem;
+}
+.creator-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+.creator-img {
+    border-radius: 3rem;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2.5rem;
+}
+.creator-text, .current-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.creator-text {
+    margin-left: -1.5rem;
+    margin-top: 0.6rem;
+}
+.current-bid {
+    line-height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-top: solid 0.3rem var(--dark--color2);
+}
+.creator-btn {
+    background-color: var(--btn--color);
+    padding: 0rem 0.8rem;
+    margin-left: 8.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.bid-btn {
+    border: none;
+    margin-left: 8.8rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: var(--white--color);
+    background-color: var(--dark--color);
+}
+.bid-btn i {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
+}
+.current-text {
+    margin-top: 2rem;
+}
+.creator, .current-title {
+    color: var(--light--color);
+    font-size: 1.2rem;
+}
+.creator-name {
+    color: var(--white--color);
+    font-weight: 600;
+}
+.current-num {
+    color: var(--white--color);
+    font-weight: 600;
+}
+.auction-item-box p {
+   font-weight: 600;
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+.auction-active {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+    -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+}
+.auction-active:hover {
+    transform: translateY(-1rem);
+}
+
+.hover-btn-1 {
+    color: var(--black--color);
+    border: none;
+    background-color: var(--white--color);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: 1.5rem;
+    animation: btn 1s ease 0s 1 normal forwards;
+}
+@keyframes btn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+.hover-btn-1 i {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
+}
+.hover-btn-1:hover i {
+    color: var(--btn--color);
+}
+.auction-item-box:hover .hover-btn-1 {
+    display: block;
+} 
+.bid-btn:hover i {
+    color: red;  
+}
+.timer-btn {
+    color: var(--white--color);
+    border-radius: 1.5rem;
+    padding: 0rem 1rem;
+    position: absolute;
+    background-color: var(--card--color);
+    border: none;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.timer-btn i {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+    color: var(--purple--color);
+}
