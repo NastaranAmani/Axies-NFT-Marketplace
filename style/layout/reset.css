@@ -11,6 +11,7 @@
 :root {
     --dark--color: #14141F;
     --dark--color2: #242431;
+    --dark--color3: #0D0D12;
     --light--color: #ADADB0;
     --white--color: #fff;
     --black--color: #000;
@@ -19,6 +20,7 @@
     --card--color: #343444;
     --hover--color: #34495e;
     --hover--color2: #272b2c;
+    --hover--color3: #3e32c6;
 
 
     --boder--radious--xs: 0.5rem;
