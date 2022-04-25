@@ -87,7 +87,7 @@
     background: none;
     color: var(--light--color);
     padding: 1.5rem 6rem 1.5rem 2rem;
-    border: 0.1rem solid var(--light--color);
+    border: 0.1rem solid var(--gray--color);
     border-radius: 1rem;
 }
 .social-input {
