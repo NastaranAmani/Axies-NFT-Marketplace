@@ -15,7 +15,7 @@
     right: 19%;
     padding: 0.1rem 0.5rem;
     border-radius: 100%;
-    background-color: tomato;
+    background-color: red;
     color: var(--white--color);
     font-size: 1.2rem;
 }
