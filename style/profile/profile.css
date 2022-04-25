@@ -51,6 +51,7 @@
 }
 .covers:hover {
     border: 0.3rem solid var(--btn--color);
+    transition: all 0.1s ease-in-out;
 }
 .right-upload {
     background-color: transparent;
@@ -59,7 +60,7 @@
     padding: 1.5rem 4rem;
 }
 .upload-box {
-    border: 0.1rem solid var(--white--color);
+    border: 0.1rem solid var(--gray--color);
     border-radius: 1rem;
     width: 30rem;
     height: 10rem;
