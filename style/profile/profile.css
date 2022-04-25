@@ -1,3 +1,32 @@
+.navbar-wallet {
+    display: flex;
+}
+.notification {
+    background-color: var(--gray--color);
+    cursor: pointer;
+    margin-right: 1.5rem;
+    border-radius: 1rem;
+    width: 40px;
+    height: 40px;
+}
+.notification .badge {
+    position: absolute;
+    top: 5%;
+    right: 19%;
+    padding: 0.1rem 0.6rem;
+    border-radius: 100%;
+    background-color: red;
+    color: var(--white--color);
+  }
+.fa-bell {
+    color: var(--white--color);
+    padding: 1.8rem 0 0 1rem;
+}
+.header-profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 1rem;
+}
 .profile-photo-box {
     background-color: var(--card--color);
     padding: 2rem;
@@ -52,6 +81,7 @@
 .covers:hover {
     border: 0.3rem solid var(--btn--color);
     transition: all 0.1s ease-in-out;
+    cursor: pointer;
 }
 .right-upload {
     background-color: transparent;
@@ -59,6 +89,9 @@
     border-color: var(--white--color);
     padding: 1.5rem 4rem;
 }
+.right-upload:hover {
+    color: var(--light--color);
+} 
 .upload-box {
     border: 0.1rem solid var(--gray--color);
     border-radius: 1rem;
