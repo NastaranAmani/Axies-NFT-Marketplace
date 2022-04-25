@@ -94,13 +94,15 @@
     color: var(--light--color);
 } 
 .upload-box {
-    border: 0.1rem solid var(--gray--color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem dashed var(--gray--color);
     border-radius: 1rem;
     width: 30rem;
     height: 10rem;
-    text-align: center;
-    padding-top: 2.5rem;
     margin-right: 1rem;
+    cursor: pointer;
 }
 .total-inputs {
     display: flex;
@@ -146,4 +148,35 @@
 .hover-button:hover {
     color: var(--black--color);
     background-color: var(--white--color);
+}
+/* ---------------------------dropzone--------------------------- */
+.dropzone-input {
+    display: none;
+}
+.dropzone-prompt {
+    color: var(--gray--color);
+}
+.drop-zone--over {
+    border-style: solid;
+}
+.drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #ccc;
+    background-size: cover;
+    position: relative;
+}
+.drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 0;
+    color: var(--white--color);
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 1.4rem;
+    text-align: center;
 }
