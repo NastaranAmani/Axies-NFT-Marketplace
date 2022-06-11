@@ -10,15 +10,12 @@
 .top-seller{
     min-height: 90vh;
 }
-.seller1, .seller2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;  
+.seller-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    row-gap: 2rem;
 }
-.seller1 {
-    padding: 5rem 0;
-}
+
 .seller-name {
     color: var(--white--color);
     font-size: 1.7rem;
@@ -57,16 +54,13 @@
     padding: 0.5rem;
     transition: all .3s ease-in-out;
 }
-.seller-id:hover{
-    transform: scale(1.1);
-}
 .fa-circle-check {
     position: absolute;
     background-color: var(--white--color);
     border-radius: 50%;
     color: var(--btn--color);
     top: 88%;
-    left: 38%;
+    left: 28%;
     background-color: var(--white--color);
     font-size: 1.2em;
     transform: translate(-50%, -50%); 

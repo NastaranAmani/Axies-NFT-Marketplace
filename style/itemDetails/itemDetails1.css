@@ -40,17 +40,16 @@
 /*-----------------------left-----------------------*/
 .item-details-left {
     padding-top: 10rem;
+    margin-right: 2rem;
 }
 .item-details-left img {
     width: 60rem;
     height: 60rem;
     object-fit: cover;
     border-radius: 1rem;
-    margin: 0 5rem;
 }
 /*-----------------------right-----------------------*/
 .item-details-right {
-    margin: 0 5rem;
     padding-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -86,8 +85,8 @@
     display: flex;
     padding: 1.5rem 0;
 }
-.share-btn {
-    margin-left: 42rem;
+.btn-right {
+    margin-left: auto;
 }
 
 .eye-btn {
@@ -97,8 +96,10 @@
 
 /*-----------------------first two boxes-----------------------*/
 .name-boxes, .info-boxes {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+   
 }
 .box-info {
     display: flex;
@@ -111,7 +112,7 @@
 .name-box-1, .name-box-2 {
     display: flex;
     background-color: var(--card--color);
-    padding: 1rem 13rem 1rem 1rem;
+    padding: 1rem;
     border-radius: 2rem;
     margin: 1rem;
 }
@@ -132,7 +133,7 @@
 /*-----------------------second two boxes-----------------------*/
 .info-box-1, .info-box-2 {
     background-color: var(--card--color);
-    padding: 2rem 6rem;
+    padding: 2rem;
     border-radius: 2rem;
     margin: 1rem;
 }
@@ -146,16 +147,14 @@
 
 /*-----------------------place bid button-----------------------*/
 .placebid i {
-    float: left;
-    margin-right: 1rem;
-    margin-top: 0.1rem;
     color: var(--white--color);
 }
 .placebid {
     border-color: var(--white--color);
     background-color: transparent;
     color: var(--white--color);
-    padding: 1.5rem 30rem;
+    padding: 1.5rem;
+    width: 100%;
 
 
 }
@@ -257,5 +256,4 @@
     line-height: 2.5rem;
     font-weight: 700;
 }
-
 
