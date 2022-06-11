@@ -28,6 +28,7 @@
 What makes this product different is the pleasent experience you'll have, due to its organized items and UI/UX Design.
 Of course, It is not the best platform yet, but we are adding new features every day to make it the best you've ever seen.
 <br />
+
 ### Pages
 
 - [Sign in](https://nastaranamani.github.io/Axies-LandingPage/pages/signin.html)
