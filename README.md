@@ -7,13 +7,13 @@
 
   <p align="center">
      <br />
-    <a href="https://nastaranamani.github.io/Axies-LandingPage/" target="_blank"><strong>View Live</strong></a>
+    <a href="https://nastaranamani.github.io/Axies-NFT-Marketplace/" target="_blank"><strong>View Live</strong></a>
        <br />
        <br />
     ·
-    <a href="https://github.com/NastaranAmani/Axies-LandingPage/issues">Report Bug</a>
+    <a href="https://github.com/NastaranAmani/Axies-NFT-Marketplace/issues">Report Bug</a>
     ·
-    <a href="https://github.com/NastaranAmani/Axies-LandingPage/issues">Request Feature</a>
+    <a href="https://github.com/NastaranAmani/Axies-NFT-Marketplace/issues">Request Feature</a>
   </p>
 </div>
 
@@ -31,9 +31,9 @@ Of course, It is not the best platform yet, but we are adding new features every
 
 ### Pages
 
-- [Sign in](https://nastaranamani.github.io/Axies-LandingPage/pages/signin.html)
-- [Item Details](https://nastaranamani.github.io/Axies-LandingPage/pages/itemDetails.html)
-- [Edit Profile](https://nastaranamani.github.io/Axies-LandingPage/pages/profile.html)
+- [Sign in](https://nastaranamani.github.io/Axies-NFT-Marketplace/pages/signin.html)
+- [Item Details](https://nastaranamani.github.io/Axies-NFT-Marketplace/pages/itemDetails.html)
+- [Edit Profile](https://nastaranamani.github.io/Axies-NFT-Marketplace/pages/profile.html)
 
 
 ### Built With
